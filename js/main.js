@@ -1,4 +1,7 @@
+$("body").addClass("overflow-y-hidden");
 $(function(){
+    $("body").removeClass("overflow-y-hidden");
+    $(".spinner").addClass("hidden");
     $(".show-navigation").click(function(){
         $(".drawer-navigation").animate(
             {

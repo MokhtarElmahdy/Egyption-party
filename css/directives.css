@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.show-navigation {
+  @apply text-white top-0 fixed focus:ring-4 font-medium rounded-r-lg text-sm px-5 py-2.5 mr-2 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-gray-800;
+}
+
+.drawer-navigation {
+  @apply fixed z-40 h-screen p-0 overflow-y-auto bg-white w-0 dark:bg-gray-800;
+}
+.drawer-navigation .drawer-navigation-label {
+  @apply text-base font-semibold text-gray-500 uppercase dark:text-gray-400;
+}
+.drawer-navigation .close-btn {
+  @apply text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white;
+}
+.drawer-navigation .navbar-link {
+  @apply flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700;
+}
+.drawer-navigation .navbar-link span {
+  @apply flex-1 ml-3 whitespace-nowrap;
+}
+
+.home {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.5333333333), rgba(117, 19, 93, 0.8)), url("../imgs/events-heavenly-header.jpg");
+}
+
+.accordion .accordion-title {
+  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.5019607843), rgba(117, 19, 93, 0.8));
+}
+.accordion .accordion-content {
+  @apply p-3 hidden;
+  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.5019607843), rgba(117, 19, 93, 0.8));
+}
+
+.countdown {
+  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.5019607843), rgba(117, 19, 93, 0.8)), url("../imgs/invitation-2508607__340.jpg");
+}/*# sourceMappingURL=directives.css.map */
